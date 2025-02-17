@@ -14,7 +14,7 @@ include = ["/Cargo.toml", "/LICENSE", "/README.md", "/src/**"]
 [dependencies]
 syn = { version = "2.0", features = ["full"] }
 naga = { version = "24.0", default-features = false, features = ["wgsl-in", "wgsl-out"] }
-naga_oil = { git = "https://github.com/DouglasDwyer/naga_oil", rev = "a3a67c08a3067a2d8756bf4a8ec943196b084713", default-features = false }
+naga_oil = { version = "0.17.0", default-features = false }
 naga-to-tokenstream = { git = "https://github.com/DouglasDwyer/naga-to-tokenstream", rev = "b50d184e5d74584a9ac88c6aaecb0bb65d8f5edd", default-features = false }
 proc-macro2 = { version = "1.0", default-features = false }
 quote = { version = "1.0", default-features = false }
